@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Dev Ghaieth Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <h1 class="fade-in">Hi, I'm Ghaieth</h1>
+            <h2 class="fade-in delay-1">Flutter & Laravel Developer</h2>
+            <p class="fade-in delay-2">I build scalable mobile and web applications.</p>
+            <div class="cta-buttons fade-in delay-3">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="assets/cv/GHAIETH_KAHEL_CV.pdf" class="btn secondary">Download CV</a>
+            </div>
+            <div class="social-icons fade-in delay-3">
+                <a href="https://github.com/ghaiethka-dev" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/ghaieth-kahel" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:ghaiethka@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content fade-in-section">
+                <p>I am a passionate software developer specializing in Flutter and Laravel. I enjoy building clean,
+                    efficient, and scalable applications with a strong focus on user experience and performance. I have
+                    experience working with REST APIs, authentication systems, and admin dashboards.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid fade-in-section">
+                <!-- Skills populated by CSS/JS or static -->
+                <div class="skill-card"><i class="fas fa-mobile-alt"></i> Flutter</div>
+                <div class="skill-card"><i class="fas fa-code"></i> Dart</div>
+                <div class="skill-card"><i class="fab fa-laravel"></i> Laravel</div>
+                <div class="skill-card"><i class="fab fa-php"></i> PHP</div>
+                <div class="skill-card"><i class="fas fa-server"></i> REST APIs</div>
+                <div class="skill-card"><i class="fas fa-database"></i> MySQL</div>
+                <div class="skill-card"><i class="fab fa-html5"></i> HTML</div>
+                <div class="skill-card"><i class="fab fa-css3-alt"></i> CSS</div>
+                <div class="skill-card"><i class="fab fa-js"></i> JavaScript</div>
+                <div class="skill-card"><i class="fab fa-git-alt"></i> Git & GitHub</div>
+                <div class="skill-card"><i class="fas fa-rocket"></i> Postman</div>
+                <div class="skill-card"><i class="fas fa-fire"></i> Firebase</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in-section">
+                    <img src="assets/images/friends_app.png" alt="Friends Service App" class="project-image">
+                    <div class="project-info">
+                        <h3>Friends Service App</h3>
+                        <p>A Flutter application connected to a Laravel REST API, featuring authentication, order
+                            management, and an admin panel.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span><span>Laravel</span><span>REST API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-section">
+                    <img src="assets/images/tassawaq_app.png" alt="Tassawaq E-commerce Platform" class="project-image">
+                    <div class="project-info">
+                        <h3>Tassawaq E-commerce Platform</h3>
+                        <p>A complete multi-vendor e-commerce platform built with Laravel, HTML, CSS, and JS. Serves as
+                            a marketplace for categories like apparel and groceries. Features secure auth, order
+                            processing, dynamic product filtering, and a responsive shopping cart.</p>
+                        <div class="project-tech">
+                            <span>Laravel</span><span>HTML/CSS/JS</span><span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-section">
+                    <img src="assets/images/bus_app.png" alt="Bus Transportation System" class="project-image">
+                    <div class="project-info">
+                        <h3>Bus Transportation System</h3>
+                        <p>A comprehensive Flutter app for inter-city travel booking. Features trip browsing, seat
+                            selection, secure payments, and real-time notifications for trip updates. Includes an in-app
+                            ticket management module.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span><span>Dart</span><span>Payment Gateway</span><span>Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-section">
+                    <img src="assets/images/car_workshop.png" alt="Mini Car Service Workshop" class="project-image">
+                    <div class="project-info">
+                        <h3>Mini Car Service Workshop</h3>
+                        <p>A specialized car service mobile app built with Flutter. Features a digital catalog for
+                            engine oils/filters, a seamless shopping cart, and appointment scheduling for on-site
+                            installation.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span><span>UI/UX</span><span>Scheduling</span><span>Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience & Highlights</h2>
+            <div class="experience-list fade-in-section">
+                <div class="experience-item">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Developed multiple Flutter applications connected to Laravel APIs.</p>
+                </div>
+                <div class="experience-item">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Designed and implemented secure authentication systems.</p>
+                </div>
+                <div class="experience-item">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Built admin dashboards and RESTful services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-text fade-in-section">Have a project or an idea? Let's work together.</p>
+            <div class="contact-links fade-in-section">
+                <a href="mailto:ghaiethka@gmail.com" class="contact-item"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://github.com/ghaiethka-dev" class="contact-item"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://linkedin.com/in/ghaieth-kahel" class="contact-item"><i class="fab fa-linkedin"></i>
+                    LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Dev_Ghaieth. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
